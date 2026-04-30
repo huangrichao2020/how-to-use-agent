@@ -1,4 +1,6 @@
-# Teach Your Agent to Evolve
+# how-to-use-agent
+
+Teach your agent to evolve through conversation.
 
 A small field guide for developers who want to teach a coding agent new
 abilities through conversation, instead of rewriting the whole agent runtime.
@@ -174,4 +176,3 @@ This prompt trail creates pressure in the right places:
 - documentation before closure
 
 That is how a conversation becomes an upgrade path.
-
