@@ -160,7 +160,7 @@ next agent can continue without rediscovering the plan.
 ├── LICENSE.zh-CN.md
 ├── README.md
 ├── README.zh-CN.md
-└── examples
+├── examples
     ├── 01-source-learning.md
     ├── 01-source-learning.zh-CN.md
     ├── 02-architecture-first.md
@@ -169,6 +169,10 @@ next agent can continue without rediscovering the plan.
     ├── 03-progressive-rollout.zh-CN.md
     ├── 04-archive-the-work.md
     └── 04-archive-the-work.zh-CN.md
+└── skills
+    └── agent-self-evolution
+        ├── SKILL.md
+        └── SKILL.zh-CN.md
 ```
 
 ## Examples
@@ -179,6 +183,21 @@ next agent can continue without rediscovering the plan.
 | Architecture before code | [02-architecture-first.md](examples/02-architecture-first.md) | [02-architecture-first.zh-CN.md](examples/02-architecture-first.zh-CN.md) |
 | Progressive rollout | [03-progressive-rollout.md](examples/03-progressive-rollout.md) | [03-progressive-rollout.zh-CN.md](examples/03-progressive-rollout.zh-CN.md) |
 | Archive the work | [04-archive-the-work.md](examples/04-archive-the-work.md) | [04-archive-the-work.zh-CN.md](examples/04-archive-the-work.zh-CN.md) |
+
+## Skill package
+
+This repo also includes a portable skill:
+
+[skills/agent-self-evolution/SKILL.md](skills/agent-self-evolution/SKILL.md)
+
+Copy the `skills/agent-self-evolution/` folder into any agent system that
+supports file-based skills. The skill teaches the agent how to improve its own
+memory, prompts, runtime rules, and tool policies with a consent gate.
+
+The key safety rule is explicit: before modifying `AGENTS.md`, `agent.md`,
+memory data, prompts, skills, or other agent-owned surfaces, the agent must
+name the affected files, explain the risk and rollback path, and ask the user
+for approval.
 
 ## What not to do
 
