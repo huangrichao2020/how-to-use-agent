@@ -1,5 +1,7 @@
 # Example 02: Architecture Before Code
 
+[English](02-architecture-first.md) · [简体中文](02-architecture-first.zh-CN.md)
+
 Use this when the agent realizes the change is bigger than a normal patch.
 
 ## Original prompt
@@ -44,4 +46,3 @@ Before implementation starts, verify:
 - The first phase is small enough to test.
 - The rollback path is written down.
 - Future agents can find the design without reading the chat transcript.
-

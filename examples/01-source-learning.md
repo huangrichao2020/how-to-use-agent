@@ -1,5 +1,7 @@
 # Example 01: Source-Level Learning
 
+[English](01-source-learning.md) · [简体中文](01-source-learning.zh-CN.md)
+
 Use this when you want the agent to learn from another project without copying
 it blindly.
 
@@ -52,4 +54,3 @@ Do not copy:
 First experiment:
   [one small change or one design document]
 ```
-

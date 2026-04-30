@@ -1,5 +1,7 @@
 # Example 04: Archive the Work
 
+[English](04-archive-the-work.md) · [简体中文](04-archive-the-work.zh-CN.md)
+
 Use this after the agent lands phase one of a larger change.
 
 ## Original prompts
@@ -57,4 +59,3 @@ It is complete when:
 - the manual is written
 - the manual and architecture design are near each other
 - the next agent can continue from the archive path
-

@@ -1,5 +1,7 @@
 # Example 03: Progressive Rollout
 
+[English](03-progressive-rollout.md) · [简体中文](03-progressive-rollout.zh-CN.md)
+
 Use this when the agent wants to switch on a new architecture immediately.
 
 ## Original prompts
@@ -52,4 +54,3 @@ The agent should recommend a staged path when:
 - old and new behavior can run side by side
 - failures would be hard for the user to diagnose
 - rollback requires knowing which state was produced by which version
-

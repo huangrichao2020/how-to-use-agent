@@ -2,6 +2,17 @@
 
 Teach your agent to evolve through conversation.
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![English](https://img.shields.io/badge/docs-English-blue)](README.md)
+[![中文](https://img.shields.io/badge/docs-中文-red)](README.zh-CN.md)
+[![GitHub stars](https://img.shields.io/github/stars/huangrichao2020/how-to-use-agent?style=social)](https://github.com/huangrichao2020/how-to-use-agent)
+
+<p align="center">
+  <a href="README.md"><strong>English</strong></a>
+  ·
+  <a href="README.zh-CN.md"><strong>简体中文</strong></a>
+</p>
+
 A small field guide for developers who want to teach a coding agent new
 abilities through conversation, instead of rewriting the whole agent runtime.
 
@@ -145,13 +156,29 @@ next agent can continue without rediscovering the plan.
 
 ```text
 .
+├── LICENSE
+├── LICENSE.zh-CN.md
 ├── README.md
+├── README.zh-CN.md
 └── examples
     ├── 01-source-learning.md
+    ├── 01-source-learning.zh-CN.md
     ├── 02-architecture-first.md
+    ├── 02-architecture-first.zh-CN.md
     ├── 03-progressive-rollout.md
-    └── 04-archive-the-work.md
+    ├── 03-progressive-rollout.zh-CN.md
+    ├── 04-archive-the-work.md
+    └── 04-archive-the-work.zh-CN.md
 ```
+
+## Examples
+
+| Topic | English | 中文 |
+|---|---|---|
+| Source-level learning | [01-source-learning.md](examples/01-source-learning.md) | [01-source-learning.zh-CN.md](examples/01-source-learning.zh-CN.md) |
+| Architecture before code | [02-architecture-first.md](examples/02-architecture-first.md) | [02-architecture-first.zh-CN.md](examples/02-architecture-first.zh-CN.md) |
+| Progressive rollout | [03-progressive-rollout.md](examples/03-progressive-rollout.md) | [03-progressive-rollout.zh-CN.md](examples/03-progressive-rollout.zh-CN.md) |
+| Archive the work | [04-archive-the-work.md](examples/04-archive-the-work.md) | [04-archive-the-work.zh-CN.md](examples/04-archive-the-work.zh-CN.md) |
 
 ## What not to do
 
