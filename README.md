@@ -2,6 +2,10 @@
 
 Teach your agent to evolve through conversation.
 
+<p align="center">
+  <img src="assets/how-to-use-agent-readme-banner.png" alt="How to Use Agent README banner" width="100%">
+</p>
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![English](https://img.shields.io/badge/docs-English-blue)](README.md)
 [![中文](https://img.shields.io/badge/docs-中文-red)](README.zh-CN.md)
@@ -160,6 +164,8 @@ next agent can continue without rediscovering the plan.
 ├── LICENSE.zh-CN.md
 ├── README.md
 ├── README.zh-CN.md
+├── assets
+    └── how-to-use-agent-readme-banner.png
 ├── examples
     ├── 01-source-learning.md
     ├── 01-source-learning.zh-CN.md
