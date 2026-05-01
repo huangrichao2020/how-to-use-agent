@@ -20,6 +20,10 @@ Teach your agent to evolve through conversation.
 A small field guide for developers who want to teach a coding agent new
 abilities through conversation, instead of rewriting the whole agent runtime.
 
+It is also a capability center built specifically for you: a place to collect
+the memories, skills, methods, and working instincts you want future agents to
+inherit.
+
 This is not an agent framework. It is a prompt trail: a real sequence of
 human instructions that moved an agent from "go read these projects" to
 "archive the new architecture, discuss risk, land phase one carefully, and
